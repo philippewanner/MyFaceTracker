@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="EntityImage" representedClassName=".EntityImage" syncable="YES">
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <relationship name="relationshipPhoto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EntityPhoto" inverseName="relationshipImage" inverseEntity="EntityPhoto" syncable="YES"/>
+    </entity>
+    <entity name="EntityPhoto" representedClassName=".EntityPhoto" syncable="YES">
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="relationshipImage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EntityImage" inverseName="relationshipPhoto" inverseEntity="EntityImage" syncable="YES"/>
+        <relationship name="relationshipThumbnail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EntityThumbnail" inverseName="relationshipPhoto" inverseEntity="EntityThumbnail" syncable="YES"/>
+    </entity>
+    <entity name="EntityThumbnail" representedClassName=".EntityThumbnail" syncable="YES">
+        <attribute name="thumbnailData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <relationship name="relationshipPhoto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EntityPhoto" inverseName="relationshipThumbnail" inverseEntity="EntityPhoto" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EntityPhoto" positionX="-299" positionY="0" width="128" height="88"/>
+        <element name="EntityImage" positionX="-81" positionY="-99" width="128" height="73"/>
+        <element name="EntityThumbnail" positionX="-81" positionY="81" width="128" height="73"/>
+    </elements>
+</model>
