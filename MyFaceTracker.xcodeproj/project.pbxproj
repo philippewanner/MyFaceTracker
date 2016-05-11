@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F037EB381CD666E5004D3068 /* ManagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037EB371CD666E4004D3068 /* ManagePageViewController.swift */; };
+		F042BB161CCFE0410046C58B /* OverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F042BB151CCFE0410046C58B /* OverlayController.swift */; };
+		F042BB181CCFE0750046C58B /* OverlayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F042BB171CCFE0750046C58B /* OverlayType.swift */; };
+		F042BB1A1CCFEB1A0046C58B /* CollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F042BB191CCFEB1A0046C58B /* CollectionViewManager.swift */; };
+		F066C0BC1CD7D9F80055A0D3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066C0BB1CD7D9F80055A0D3 /* DataController.swift */; };
+		F066C0BF1CD7DA1D0055A0D3 /* myCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F066C0BD1CD7DA1D0055A0D3 /* myCoreDataModel.xcdatamodeld */; };
+		F078801B1CCD48E200F10F2C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F078801A1CCD48E200F10F2C /* CollectionViewCell.swift */; };
+		F0BC31C01CBEA6D30068E030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC31BF1CBEA6D30068E030 /* AppDelegate.swift */; };
+		F0BC31C21CBEA6D30068E030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC31C11CBEA6D30068E030 /* ViewController.swift */; };
+		F0BC31C51CBEA6D30068E030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC31C31CBEA6D30068E030 /* Main.storyboard */; };
+		F0BC31C71CBEA6D30068E030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BC31C61CBEA6D30068E030 /* Assets.xcassets */; };
+		F0BC31CA1CBEA6D30068E030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC31C81CBEA6D30068E030 /* LaunchScreen.storyboard */; };
+		F0BC31D21CC12DE40068E030 /* FaceTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BC31D11CC12DE40068E030 /* FaceTracker.framework */; };
+		F0BC31D31CC12DE40068E030 /* FaceTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0BC31D11CC12DE40068E030 /* FaceTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0C723D81CD3C91D003B67C2 /* CheckPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C723D71CD3C91D003B67C2 /* CheckPhotoViewController.swift */; };
+		F0E2AD2F1CD54485007DA481 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2AD2E1CD54485007DA481 /* CoreData.framework */; };
+		F0E2AD591CD54B1E007DA481 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2AD581CD54B1E007DA481 /* GalleryViewController.swift */; };
+		F0E2AD5B1CD54B4B007DA481 /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2AD5A1CD54B4B007DA481 /* GalleryCell.swift */; };
+		F0E2AD901CD55CCA007DA481 /* EntityThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2AD8A1CD55CCA007DA481 /* EntityThumbnail.swift */; };
+		F0E2AD921CD55CCA007DA481 /* EntityPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2AD8C1CD55CCA007DA481 /* EntityPhoto.swift */; };
+		F0E2AD941CD55CCA007DA481 /* EntityImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2AD8E1CD55CCA007DA481 /* EntityImage.swift */; };
+		F0E2AD971CD5E517007DA481 /* PhotoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2AD961CD5E517007DA481 /* PhotoPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0BC31D41CC12DE40068E030 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0BC31D31CC12DE40068E030 /* FaceTracker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F037EB371CD666E4004D3068 /* ManagePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagePageViewController.swift; sourceTree = "<group>"; };
+		F042BB151CCFE0410046C58B /* OverlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayController.swift; sourceTree = "<group>"; };
+		F042BB171CCFE0750046C58B /* OverlayType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayType.swift; sourceTree = "<group>"; };
+		F042BB191CCFEB1A0046C58B /* CollectionViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewManager.swift; sourceTree = "<group>"; };
+		F066C0BB1CD7D9F80055A0D3 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataController.swift; path = MyFaceTracker/Model/DataController.swift; sourceTree = "<group>"; };
+		F066C0BE1CD7DA1D0055A0D3 /* myCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		F078801A1CCD48E200F10F2C /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F0BC31BC1CBEA6D30068E030 /* MyFaceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFaceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BC31BF1CBEA6D30068E030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0BC31C11CBEA6D30068E030 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0BC31C41CBEA6D30068E030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0BC31C61CBEA6D30068E030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0BC31C91CBEA6D30068E030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0BC31CB1CBEA6D30068E030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BC31D11CC12DE40068E030 /* FaceTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FaceTracker.framework; path = MyFaceTracker/FaceTracker.framework; sourceTree = "<group>"; };
+		F0C723D71CD3C91D003B67C2 /* CheckPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckPhotoViewController.swift; sourceTree = "<group>"; };
+		F0E2AD2E1CD54485007DA481 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F0E2AD581CD54B1E007DA481 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		F0E2AD5A1CD54B4B007DA481 /* GalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		F0E2AD8A1CD55CCA007DA481 /* EntityThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntityThumbnail.swift; path = MyFaceTracker/Model/EntityThumbnail.swift; sourceTree = "<group>"; };
+		F0E2AD8C1CD55CCA007DA481 /* EntityPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntityPhoto.swift; path = MyFaceTracker/Model/EntityPhoto.swift; sourceTree = "<group>"; };
+		F0E2AD8E1CD55CCA007DA481 /* EntityImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntityImage.swift; path = MyFaceTracker/Model/EntityImage.swift; sourceTree = "<group>"; };
+		F0E2AD961CD5E517007DA481 /* PhotoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0BC31B91CBEA6D30068E030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E2AD2F1CD54485007DA481 /* CoreData.framework in Frameworks */,
+				F0BC31D21CC12DE40068E030 /* FaceTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0BC31B31CBEA6D30068E030 = {
+			isa = PBXGroup;
+			children = (
+				F0E2AD331CD545D1007DA481 /* Framework */,
+				F0BC31BE1CBEA6D30068E030 /* MyFaceTracker */,
+				F0BC31BD1CBEA6D30068E030 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0BC31BD1CBEA6D30068E030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0BC31BC1CBEA6D30068E030 /* MyFaceTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0BC31BE1CBEA6D30068E030 /* MyFaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2AD951CD5E4E6007DA481 /* Display Photo */,
+				F0E2AD321CD545C0007DA481 /* Model */,
+				F0C723D61CD3C908003B67C2 /* PhotoGallery */,
+				F0C723D51CD3C8F0003B67C2 /* CheckPhoto */,
+				F0C723D41CD3C8D4003B67C2 /* FaceTrackering */,
+				F0BC31BF1CBEA6D30068E030 /* AppDelegate.swift */,
+				F0BC31C31CBEA6D30068E030 /* Main.storyboard */,
+				F0BC31C61CBEA6D30068E030 /* Assets.xcassets */,
+				F0BC31C81CBEA6D30068E030 /* LaunchScreen.storyboard */,
+				F0BC31CB1CBEA6D30068E030 /* Info.plist */,
+			);
+			path = MyFaceTracker;
+			sourceTree = "<group>";
+		};
+		F0C723D41CD3C8D4003B67C2 /* FaceTrackering */ = {
+			isa = PBXGroup;
+			children = (
+				F0BC31C11CBEA6D30068E030 /* ViewController.swift */,
+				F078801A1CCD48E200F10F2C /* CollectionViewCell.swift */,
+				F042BB191CCFEB1A0046C58B /* CollectionViewManager.swift */,
+				F042BB151CCFE0410046C58B /* OverlayController.swift */,
+				F042BB171CCFE0750046C58B /* OverlayType.swift */,
+			);
+			name = FaceTrackering;
+			sourceTree = "<group>";
+		};
+		F0C723D51CD3C8F0003B67C2 /* CheckPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				F0C723D71CD3C91D003B67C2 /* CheckPhotoViewController.swift */,
+			);
+			name = CheckPhoto;
+			sourceTree = "<group>";
+		};
+		F0C723D61CD3C908003B67C2 /* PhotoGallery */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2AD581CD54B1E007DA481 /* GalleryViewController.swift */,
+				F0E2AD5A1CD54B4B007DA481 /* GalleryCell.swift */,
+			);
+			name = PhotoGallery;
+			sourceTree = "<group>";
+		};
+		F0E2AD321CD545C0007DA481 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F066C0BD1CD7DA1D0055A0D3 /* myCoreDataModel.xcdatamodeld */,
+				F0E2AD8A1CD55CCA007DA481 /* EntityThumbnail.swift */,
+				F0E2AD8C1CD55CCA007DA481 /* EntityPhoto.swift */,
+				F0E2AD8E1CD55CCA007DA481 /* EntityImage.swift */,
+				F066C0BB1CD7D9F80055A0D3 /* DataController.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F0E2AD331CD545D1007DA481 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2AD2E1CD54485007DA481 /* CoreData.framework */,
+				F0BC31D11CC12DE40068E030 /* FaceTracker.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		F0E2AD951CD5E4E6007DA481 /* Display Photo */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2AD961CD5E517007DA481 /* PhotoPageViewController.swift */,
+				F037EB371CD666E4004D3068 /* ManagePageViewController.swift */,
+			);
+			name = "Display Photo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0BC31BB1CBEA6D30068E030 /* MyFaceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BC31CE1CBEA6D30068E030 /* Build configuration list for PBXNativeTarget "MyFaceTracker" */;
+			buildPhases = (
+				F0BC31B81CBEA6D30068E030 /* Sources */,
+				F0BC31B91CBEA6D30068E030 /* Frameworks */,
+				F0BC31BA1CBEA6D30068E030 /* Resources */,
+				F0BC31D41CC12DE40068E030 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFaceTracker;
+			productName = MyFaceTracker;
+			productReference = F0BC31BC1CBEA6D30068E030 /* MyFaceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0BC31B41CBEA6D30068E030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Philippe Wanner";
+				TargetAttributes = {
+					F0BC31BB1CBEA6D30068E030 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F0BC31B71CBEA6D30068E030 /* Build configuration list for PBXProject "MyFaceTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0BC31B31CBEA6D30068E030;
+			productRefGroup = F0BC31BD1CBEA6D30068E030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0BC31BB1CBEA6D30068E030 /* MyFaceTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0BC31BA1CBEA6D30068E030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BC31CA1CBEA6D30068E030 /* LaunchScreen.storyboard in Resources */,
+				F0BC31C71CBEA6D30068E030 /* Assets.xcassets in Resources */,
+				F0BC31C51CBEA6D30068E030 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0BC31B81CBEA6D30068E030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E2AD901CD55CCA007DA481 /* EntityThumbnail.swift in Sources */,
+				F042BB161CCFE0410046C58B /* OverlayController.swift in Sources */,
+				F0E2AD941CD55CCA007DA481 /* EntityImage.swift in Sources */,
+				F0E2AD591CD54B1E007DA481 /* GalleryViewController.swift in Sources */,
+				F0E2AD921CD55CCA007DA481 /* EntityPhoto.swift in Sources */,
+				F042BB181CCFE0750046C58B /* OverlayType.swift in Sources */,
+				F078801B1CCD48E200F10F2C /* CollectionViewCell.swift in Sources */,
+				F0BC31C21CBEA6D30068E030 /* ViewController.swift in Sources */,
+				F0E2AD5B1CD54B4B007DA481 /* GalleryCell.swift in Sources */,
+				F0C723D81CD3C91D003B67C2 /* CheckPhotoViewController.swift in Sources */,
+				F042BB1A1CCFEB1A0046C58B /* CollectionViewManager.swift in Sources */,
+				F0E2AD971CD5E517007DA481 /* PhotoPageViewController.swift in Sources */,
+				F066C0BC1CD7D9F80055A0D3 /* DataController.swift in Sources */,
+				F037EB381CD666E5004D3068 /* ManagePageViewController.swift in Sources */,
+				F066C0BF1CD7DA1D0055A0D3 /* myCoreDataModel.xcdatamodeld in Sources */,
+				F0BC31C01CBEA6D30068E030 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0BC31C31CBEA6D30068E030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BC31C41CBEA6D30068E030 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0BC31C81CBEA6D30068E030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BC31C91CBEA6D30068E030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0BC31CC1CBEA6D30068E030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0BC31CD1CBEA6D30068E030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0BC31CF1CBEA6D30068E030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyFaceTracker",
+				);
+				INFOPLIST_FILE = MyFaceTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.utoronto.iosdevelopmentwithswift.facetracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0BC31D01CBEA6D30068E030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyFaceTracker",
+				);
+				INFOPLIST_FILE = MyFaceTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.utoronto.iosdevelopmentwithswift.facetracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0BC31B71CBEA6D30068E030 /* Build configuration list for PBXProject "MyFaceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BC31CC1CBEA6D30068E030 /* Debug */,
+				F0BC31CD1CBEA6D30068E030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0BC31CE1CBEA6D30068E030 /* Build configuration list for PBXNativeTarget "MyFaceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BC31CF1CBEA6D30068E030 /* Debug */,
+				F0BC31D01CBEA6D30068E030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F066C0BD1CD7DA1D0055A0D3 /* myCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F066C0BE1CD7DA1D0055A0D3 /* myCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = F066C0BE1CD7DA1D0055A0D3 /* myCoreDataModel.xcdatamodel */;
+			name = myCoreDataModel.xcdatamodeld;
+			path = MyFaceTracker/Model/myCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F0BC31B41CBEA6D30068E030 /* Project object */;
+}
